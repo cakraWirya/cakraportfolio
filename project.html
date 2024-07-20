@@ -1,0 +1,598 @@
+<div class="container project">
+  <h3 class="judul text-center">PROJECT</h3>
+  <p class="text-center">
+    Dalam karir, saya telah mendevelop beberapa proyek mulai dari proyek pribadi
+    hingga proyek dengan client. Dari sesuatu yang sederhana hingga yang
+    kompleks dan menjadi solusi dari problem yang ada.
+  </p>
+  <div id="myBtnContainer" class="d-flex flex-column align-items-center">
+    <div class="d-flex flex-wrap justify-content-center mb-3">
+      <button class="tombol active" onclick="filterSelection('all')">
+        SHOW ALL
+      </button>
+      <button class="tombol" onclick="filterSelection('uiux')">
+        UI/UX DESIGN
+      </button>
+      <button class="tombol" onclick="filterSelection('webdevelopment')">
+        WEB DEVELOPMENT
+      </button>
+      <button class="tombol" onclick="filterSelection('graphicdesign')">
+        GRAPHIC DESIGN
+      </button>
+      <button class="tombol" onclick="filterSelection('multimedia')">
+        MULTIMEDIA
+      </button>
+    </div>
+  </div>
+
+  <!-- Proyek-->
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+    <!-- Proyek 1 -->
+    <div class="col mb-2 px-1 img-container filterDiv multimedia show">
+      <img
+        class="borderProject"
+        src="proyek/animation nami/gambar1.png"
+        onclick="openForm()"
+      />
+    </div>
+    <!-- Proyek 2 -->
+    <div class="col mb-2 px-1 img-container filterDiv uiux show">
+      <img
+        class="borderProject"
+        src="proyek/indosat ui/Frame 29.png"
+        onclick="openForm2()"
+      />
+    </div>
+    <!-- Proyek 3 -->
+    <div class="col mb-2 px-1 img-container filterDiv uiux show">
+      <img
+        class="borderProject"
+        src="proyek/silewai ui/frame 1.png"
+        onclick="openForm3()"
+      />
+    </div>
+    <!-- Proyek 4 -->
+    <div class="col mb-2 px-1 img-container filterDiv webdevelopment show">
+      <img
+        class="borderProject"
+        src="proyek/portfolio cakra/Frame 1.png"
+        onclick="openForm4()"
+      />
+    </div>
+  </div>
+
+  <!-- Proyek 1 -->
+  <div class="container form-popup p-1" id="myForm">
+    <div class="row p-1" style="background-color: #323232">
+      <div class="col-12" style="height: 592px">
+        <div class="row" style="height: 100%">
+          <div class="col-6 p-0" style="height: 100%">
+            <img
+              class="img-detail"
+              id="expandedImg"
+              style="width: 100%; height: 100%; object-fit: cover"
+              src="proyek/animation nami/gambar1.png"
+            />
+          </div>
+          <div class="col-2 px-2" style="height: 100%; overflow-x: hidden">
+            <div class="row pb-2" style="height: 200px">
+              <img
+                class="img-detail"
+                onclick="myFunction(this);"
+                style="width: 100%; height: 100%; object-fit: cover"
+                src="proyek/animation nami/gambar1.png"
+              />
+            </div>
+            <div class="row pb-2" style="height: 200px">
+              <img
+                class="img-detail"
+                onclick="myFunction(this);"
+                style="width: 100%; height: 100%; object-fit: cover"
+                src="proyek/animation nami/gambar2.png"
+              />
+            </div>
+            <div class="row pb-2" style="height: 200px">
+              <img
+                class="img-detail"
+                onclick="myFunction(this);"
+                style="width: 100%; height: 100%; object-fit: cover"
+                src="proyek/animation nami/gambar4.png"
+              />
+            </div>
+            <div class="row pb-2" style="height: 200px">
+              <!-- <video
+                onclick="myFunction(this);"
+                src="proyek/"
+                type="video/mp4"
+                controls
+              ></video> -->
+
+              <iframe
+                onclick="myFunction(this);"
+                src="https://drive.google.com/file/d/1HfbZqNAIRauybqeymD-56QCSGtkGE2B1/preview"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-4 p-1" style="height: 100%; overflow-x: hidden">
+            <button
+              type="button"
+              class="btn-close"
+              onclick="closeForm()"
+            ></button>
+            <h4>
+              Animated Virtual Assistant 'Nami' by IOH External Communications
+            </h4>
+            <p>
+              'Nami' Virtual Assistant, karakter animasi yang mengvisualkan
+              employee indosat bagian external communications dalam menyampaikan
+              Achievement & Milestone Extercomm IOH tahun 2023. Proyek ini
+              selesai dikerjakan sesuai dengan script & story board information,
+              dengan deadline pengerjaan 4 hari pada 13/01/2024 s.d 16/01/2024.
+            </p>
+            <p class="mb-0" style="font-weight: 500; font-size: 18px">
+              Result :
+            </p>
+            <ul>
+              <li>Karakter 'Nami' Virtual Assistant.</li>
+              <li>
+                Nami divisualkan sedang memberikan penjelasan yang menyenangkan.
+              </li>
+              <li>Script text diubah dalam bentuk voice.</li>
+              <li>Elemen desain informasi dalam bentuk pop up.</li>
+              <li>Backsound pendukung handsclap, cheer up</li>
+              <li>Durasi animasi 2 menit</li>
+            </ul>
+            <p class="mb-0" style="font-weight: 500; font-size: 18px">
+              Tools :
+            </p>
+            <ul>
+              <li>CapCut : Mengkobinasikan segala elemen yang ada</li>
+              <li>Adobe Photoshop : Membuat character</li>
+              <li>Vidnoz AI : Animasi mulut character</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Proyek 2 -->
+  <div class="container form-popup p-1" id="myForm2">
+    <div class="row p-1" style="background-color: #323232">
+      <div class="col-12" style="height: 592px">
+        <div class="row" style="height: 100%">
+          <div class="col-6 p-0" style="height: 100%">
+            <img
+              class="img-detail"
+              id="expandedImg2"
+              style="width: 100%; height: 100%; object-fit: cover"
+              src="proyek/indosat ui/Frame 29.png"
+            />
+          </div>
+          <div class="col-2 px-2" style="height: 100%; overflow-x: hidden">
+            <div class="row pb-2" style="height: 200px">
+              <img
+                class="img-detail"
+                onclick="myFunction2(this);"
+                style="width: 100%; height: 100%; object-fit: cover"
+                src="proyek/indosat ui/Frame 29.png"
+              />
+            </div>
+            <div class="row pb-2" style="height: 200px">
+              <img
+                class="img-detail"
+                onclick="myFunction2(this);"
+                style="width: 100%; height: 100%; object-fit: cover"
+                src="proyek/indosat ui/Frame 36.png"
+              />
+            </div>
+            <div class="row pb-2" style="height: 200px">
+              <img
+                class="img-detail"
+                onclick="myFunction2(this);"
+                style="width: 100%; height: 100%; object-fit: cover"
+                src="proyek/indosat ui/Frame 37.png"
+              />
+            </div>
+            <div class="row pb-2" style="height: 200px">
+              <img
+                class="img-detail"
+                onclick="myFunction2(this);"
+                style="width: 100%; height: 100%; object-fit: cover"
+                src="proyek/indosat ui/Frame 38.png"
+              />
+            </div>
+          </div>
+          <div class="col-4 p-1" style="height: 100%; overflow-x: hidden">
+            <button
+              type="button"
+              class="btn-close"
+              onclick="closeForm2()"
+            ></button>
+            <h4>
+              Sahabat Media Indosat “Aplikasi Agregator Berita” by Indosat
+              Ooredoo Hutchison
+            </h4>
+            <p>
+              Sahabat Media Indosat merupakan proyek dari Indosat Ooredoo
+              Hutchison (IOH), perusahaan telekomunikasi terkemuka di Indonesia.
+              Latar Belakang Proyek ini, IOH memiliki rekan-rekan media yang
+              membuat artikel seputar IOH, dalam kasusnya rekan-rekan media IOH
+              tidak terorganisir dengan baik, menyebabkan artikel sulit
+              diverifikasi, penyebaran artikel tidak teratur, dan ketidakaturan
+              dalam pemberian reward kepada rekan media. Proyek ini bertujuan
+              untuk meningkatkan efisiensi dengan mempermudah verifikasi
+              artikel, menyentralisasi konten dalam satu platform terintegrasi,
+              dan menciptakan sistem pemberian reward yang lebih teratur dan
+              transparan. Dengan pengembangan Sahabat Media Indosat, IOH
+              berharap dapat mengelola hubungan dengan rekan media dengan lebih
+              baik, memastikan artikel terverifikasi, dan memberikan reward yang
+              tepat kepada penulis melalui solusi manajemen media yang efisien
+              dan efektif. di Proyek ini saya bertanggung jawab sebagai UI/UX
+              Designer, pengerjaannya dilakukan selama 2 bulan, pada 01/08/2023
+              s.d 30/09/2023.
+            </p>
+            <p class="mb-0" style="font-weight: 500; font-size: 18px">
+              Result :
+            </p>
+            <ul>
+              <li>
+                Berhasil membuat news aggregator yang mengintegrasikan
+                rekan-rekan media dan dapat melakukan management artikel &
+                media.
+              </li>
+              <li>
+                Meningkatkan keterlibatan pengguna dengan antarmuka yang menarik
+                dan mudah digunakan.
+              </li>
+              <li>
+                Mengurangi waktu yang diperlukan pengguna untuk menemukan berita
+                dari berbagai sumber.
+              </li>
+              <li>
+                Meningkatkan kepuasan pengguna melalui filterisasi konten berita
+                berdasarkan kategori.
+              </li>
+              <li>
+                Menyediakan berita yang relevan dan up to date secara realtime.
+              </li>
+              <li>
+                Memfasilitasi diskusi dan interaksi pengguna melalui fitur room
+                chat.
+              </li>
+            </ul>
+            <p class="mb-0" style="font-weight: 500; font-size: 18px">
+              Fitur :
+            </p>
+            <ul>
+              <li>
+                Dashboard Utama: Menampilkan artikel terbaru dari berbagai
+                kategori dengan tampilan grid yang menarik dan menu untuk akses
+                ke semua fitur.
+              </li>
+              <li>
+                Account & Profile : Melakukan registrasi akun agar mendapatkan
+                akses untuk fitur lain selain dari membaca berita dan fitur
+                update profile
+              </li>
+              <li>
+                Login System : Fitur verifikasi untuk keamanan akun rekan-rekan
+                media
+              </li>
+              <li>
+                Search & Filter : Fitur pencarian untuk menemukan berita
+                spesifik dan filter untuk menyaring berita berdasarkan kategori
+                atau tanggal.
+              </li>
+              <li>
+                Notifications: Notifikasi realtime untuk approve artikel,
+                pemberian reward dan chat room.
+              </li>
+              <li>
+                Social Sharing : Kemudahan berbagi berita ke media sosial
+                langsung dari aplikasi.
+              </li>
+              <li>
+                Uploading System : Membuat Artikel baru atau mengunggah kembali
+                artikel yang telah diposting di media lain dan unggah foto
+                menarik ke gallery untuk diperlihatkan
+              </li>
+              <li>
+                Chat room : Fitur untuk berdiskusi bersama rekan media, bisa
+                untuk diskusi pribadi maupun diskusi dalam grup
+              </li>
+              <li>
+                Gallery : Menampilkan foto-foto menarik yang diunggah rekan
+                media, dapat dilihat detail foto & deskripsi serta dapat
+                memberikan like
+              </li>
+              <li>
+                Poin : Informasi poin yang terkumpul dan riwayat poin yang
+                diterima dari artikel yang diunngah
+              </li>
+              <li>
+                Event & Promo : Fitur ini menampilkan informasi Event & Promo
+                IOH
+              </li>
+              <li>
+                Management System : Mengelola artikel sebelum dipublish,
+                dilakukan review terlebih dahulu oleh admin IOH apakah layak di
+                public/tidak dan mengelola akun serta pemberian poin reward
+                rekan-rekan media
+              </li>
+            </ul>
+            <p class="mb-0" style="font-weight: 500; font-size: 18px">
+              Tools :
+            </p>
+            <ul>
+              <li>Figma : Untuk desain UI/UX dan prototyping.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Proyek 3 -->
+  <div class="container form-popup p-1" id="myForm3">
+    <div class="row p-1" style="background-color: #323232">
+      <div class="col-12" style="height: 592px">
+        <div class="row" style="height: 100%">
+          <div class="col-6 p-0" style="height: 100%">
+            <img
+              class="img-detail"
+              id="expandedImg3"
+              style="width: 100%; height: 100%; object-fit: cover"
+              src="proyek/silewai ui/frame 1.png"
+            />
+          </div>
+          <div class="col-2 px-2" style="height: 100%; overflow-x: hidden">
+            <div class="row pb-2" style="height: 200px">
+              <img
+                class="img-detail"
+                onclick="myFunction3(this);"
+                style="width: 100%; height: 100%; object-fit: cover"
+                src="proyek/silewai ui/frame 1.png"
+              />
+            </div>
+            <div class="row pb-2" style="height: 200px">
+              <img
+                class="img-detail"
+                onclick="myFunction3(this);"
+                style="width: 100%; height: 100%; object-fit: cover"
+                src="proyek/silewai ui/frame 2.png"
+              />
+            </div>
+            <div class="row pb-2" style="height: 200px">
+              <img
+                class="img-detail"
+                onclick="myFunction3(this);"
+                style="width: 100%; height: 100%; object-fit: cover"
+                src="proyek/silewai ui/frame 3.png"
+              />
+            </div>
+            <div class="row pb-2" style="height: 200px">
+              <img
+                class="img-detail"
+                onclick="myFunction3(this);"
+                style="width: 100%; height: 100%; object-fit: cover"
+                src="proyek/silewai ui/frame 4.png"
+              />
+            </div>
+          </div>
+          <div class="col-4 p-1" style="height: 100%; overflow-x: hidden">
+            <button
+              type="button"
+              class="btn-close"
+              onclick="closeForm3()"
+            ></button>
+            <h4>
+              Silewai App "Aplikasi Manajemen Pasien & Informasi Pihak Terkait”
+              RS. Dadi Makassar
+            </h4>
+            <p>
+              Proyek ini merupakan penelitian seorang Dokter Psikiater dari RS.
+              Dadi Makassar/rumah sakit kesehatan jiwa. Datang dengan latar
+              belakang masalah, Komunikasi pihak RS & keluarga terputus,
+              Informasi kondisi pasien tidak diketahui oleh pihak2 terkait, dan
+              keluarga atau pihak yang bertanggung jawab melupakan pasien,
+              sehingga masalah ini menyebabkan terjadinya keterlambatan
+              kepulangan pasien dampaknya membuat penumpukan pasien yang memakai
+              biaya lebih banyak serta ruangan. Fokus utama proyek ini adalah
+              meningkatkan efisiensi manajemen pasien dengan stackholder. Dengan
+              pendekatan Design Thinking kami berhasil menemukan solusi untuk
+              mengatasi masalah yang ada dan melakukan UX Research untuk
+              mengetahui perilaku pengguna dan menghasilkan aplikasi yang ramah
+              pengguna serta intuitif. Deadline pengerjaan 1 pekan.
+            </p>
+            <p class="mb-0" style="font-weight: 500; font-size: 18px">
+              Result :
+            </p>
+            <ul>
+              <li>
+                Meningkatkan efisiensi kerja staf rumah sakit dengan antarmuka
+                yang lebih user-friendly.
+              </li>
+              <li>
+                Mengurangi waktu yang diperlukan untuk mengakses informasi
+                pasien dan catatan medis.
+              </li>
+              <li>Meningkatkan kepuasan pengguna dengan desain yang modern.</li>
+              <li>
+                Mendukung pengambilan keputusan yang lebih cepat dan tepat
+                melalui visualisasi data yang lebih baik.
+              </li>
+            </ul>
+            <p class="mb-0" style="font-weight: 500; font-size: 18px">
+              Fitur :
+            </p>
+            <ul>
+              <li>
+                Dashboard Utama: Menyediakan tampilan semua fitur aplikasi,
+                seperti profil, data pasien, kelas rawat, ruangan, rekam medik,
+                status pasien, pembiayaan, keswamas, dan durasi perawatan
+              </li>
+              <li>
+                Manajemen Pasien: Fitur untuk pendaftaran pasien, pengelolaan
+                data medis, dan riwayat kesehatan.
+              </li>
+              <li>Pengelolaan Ruangan: Sistem informasi kamar rawat pasien.</li>
+              <li>
+                Sistem Pembiayaan: Modul untuk informasi tagihan medis
+                berdasarkan kategori pembiayaan.
+              </li>
+              <li>
+                Lama Hari Rawat: Fitur untuk informasi durasi pasien menjalani
+                perawatan dan sebagai pengingat untuk kepulangan pasien.
+              </li>
+              <li>
+                Notifikasi dan Reminder: Pemberitahuan otomatis, pembaruan
+                status pasien, dan lainnya.
+              </li>
+            </ul>
+            <p class="mb-0" style="font-weight: 500; font-size: 18px">
+              Tools :
+            </p>
+            <ul>
+              <li>Figma : Untuk desain UI/UX dan prototyping.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Proyek 4 -->
+  <div class="container form-popup p-1" id="myForm4">
+    <div class="row p-1" style="background-color: #323232">
+      <div class="col-12" style="height: 592px">
+        <div class="row" style="height: 100%">
+          <div class="col-6 p-0" style="height: 100%">
+            <img
+              class="img-detail"
+              id="expandedImg4"
+              style="width: 100%; height: 100%; object-fit: cover"
+              src="proyek/portfolio cakra/Frame 1.png"
+            />
+          </div>
+          <div class="col-2 px-2" style="height: 100%; overflow-x: hidden">
+            <div class="row pb-2" style="height: 200px">
+              <img
+                class="img-detail"
+                onclick="myFunction4(this);"
+                style="width: 100%; height: 100%; object-fit: cover"
+                src="proyek/portfolio cakra/Frame 1.png"
+              />
+            </div>
+            <div class="row pb-2" style="height: 200px">
+              <img
+                class="img-detail"
+                onclick="myFunction4(this);"
+                style="width: 100%; height: 100%; object-fit: cover"
+                src="proyek/portfolio cakra/Frame 2.png"
+              />
+            </div>
+            <div class="row pb-2" style="height: 200px">
+              <img
+                class="img-detail"
+                onclick="myFunction4(this);"
+                style="width: 100%; height: 100%; object-fit: cover"
+                src="proyek/portfolio cakra/Frame 3.png"
+              />
+            </div>
+            <div class="row pb-2" style="height: 200px">
+              <img
+                class="img-detail"
+                onclick="myFunction4(this);"
+                style="width: 100%; height: 100%; object-fit: cover"
+                src="proyek/portfolio cakra/Frame 4.png"
+              />
+            </div>
+          </div>
+          <div class="col-4 p-1" style="height: 100%; overflow-x: hidden">
+            <button
+              type="button"
+              class="btn-close"
+              onclick="closeForm4()"
+            ></button>
+            <h4>
+              Personal Portfolio Cakra Wirya “Aplikasi Sistem Informasi
+              Pecapaian & Karya”
+            </h4>
+            <p>
+              Portfolio merupakan wadah yang menyimpan berbagai informasi, karya
+              dan pengalaman serta berbagai pencapaian atau documents
+              professional yang telah dikerjakan. Latar belakang membuat
+              portfolio karena kesulitan dalam menunjukkan proyek, pencapaian,
+              pengalaman secara terorganisir serta mudah diakses, tidak mudah
+              dalam membangun & mengkomunikasikan identitas keahlian, sulit juga
+              bagi klien atau rekruter untuk mengakses informasi secara lengkap
+              dan terstruktur. problem tersebut membuat terbatasnya kesempatan
+              untuk proyek atau pekerjaan baru. Portfolio ini bertujuan
+              mencerminkan kemampuan di dalam suatu bidang, sebagai personal
+              branding, dan wadah untuk mengorganisir semua informasi yang ada,
+              sekaligus sebagai proyek untuk belajar membuat portfolio. Dengan
+              portfolio ini dapat meningkatkan peluang proyek serta karir,
+              memperluas jaringan profesional, dan mendeskripsikan keterampilan
+              serta karya secara efektif. Pengerjaan proyek ini dikerjakan
+              selama 2 pekan, pada 11/03/2024 s.d 28/03/2024.
+            </p>
+            <p class="mb-0" style="font-weight: 500; font-size: 18px">
+              Result :
+            </p>
+            <ul>
+              <li>
+                Berhasil membuat portfolio yang dapat mengorganisir berbagai
+                konten dalam tataletak yang terstruktur & terperinci
+              </li>
+              <li>
+                Meningkatkan keterlibatan pengguna dengan antarmuka yang menarik
+                dan mudah dipahami.
+              </li>
+              <li>
+                Mengkorelasikan data konten yang berfungsi untuk efektivitas
+                penggunaan data.
+              </li>
+              <li>
+                Menerapkan system MVC/Model View Controller yang membuat code
+                lebih terstruktur.
+              </li>
+              <li>Pengetahuan baru menggunakan framework laravel.</li>
+            </ul>
+            <p class="mb-0" style="font-weight: 500; font-size: 18px">
+              Fitur :
+            </p>
+            <ul>
+              <li>
+                Navbar: Akses cepat ke Home, Service, Project, Resume, Contact,
+                dan media sosial.
+              </li>
+              <li>
+                Home: Menampilkan informasi pengguna, media sosial, dan
+                pengenalan bidang.
+              </li>
+              <li>
+                Service: Penjelasan mendalam tentang bidang utama yang ditekuni.
+              </li>
+              <li>
+                Project: Galeri proyek dengan gambar dan deskripsi lengkap.
+              </li>
+              <li>Resume: Ringkasan pengalaman karir.</li>
+              <li>
+                Contact: Informasi kontak formal untuk kemudahan komunikasi.
+              </li>
+            </ul>
+            <p class="mb-0" style="font-weight: 500; font-size: 18px">
+              Tools :
+            </p>
+            <ul>
+              <li>Figma : Untuk desain UI/UX dan prototyping.</li>
+              <li>Visual Studio Code : Sebagai text editor.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
