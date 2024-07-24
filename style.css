@@ -121,6 +121,12 @@ body {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .colservice {
+    height: 150px;
+  }
+}
+
 .colservice img {
   width: 40%;
 }
