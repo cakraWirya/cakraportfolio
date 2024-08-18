@@ -299,6 +299,26 @@ h4 {
   object-fit: cover;
 }
 
+.gambarUtama {
+  height: 408px;
+}
+
+@media (max-width: 768px) {
+  .gambarUtama {
+    height: 250px;
+  }
+}
+
+.optionGambar {
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+  .optionGambar {
+    height: 120px;
+  }
+}
+
 /* section contact */
 .pading {
   padding-left: 3%;
